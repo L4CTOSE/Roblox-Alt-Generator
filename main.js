@@ -109,7 +109,7 @@ function simulateUserInput(inputElement, value) {
       'Typhoon',
       'Dragn',
     ];
-    var list2 = ['', '', '_', 'xx'];
+    var list2 = ['', '', '', '', '', '', '', 'xox', 'with', 'oxo', '_', 'xx'];
     var list3 = [
       'lovrr',
       'spxxe',
