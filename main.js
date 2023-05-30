@@ -109,11 +109,11 @@ function simulateUserInput(inputElement, value) {
       'Typhoon',
       'Dragn',
     ];
-    var list2 = ['', '', '', '', '', '', '', 'xox', 'with', 'oxo', '_', 'xx'];
+    var list2 = ['', '', '', '', '', '', '', 'xox', 'with', 'oxo', '_', 'xx', '', '', '', '', '', '', '', 'xox', 'with', 'oxo', '_', 'xx', '', '', '', '', '', '', '', 'xox', 'with', 'oxo', '_', 'xx','', '', '', '', '', '', '', 'xox', 'with', 'oxo', '_', 'xx', 'FART'];
     var list3 = [
       'lovrr',
       'spxxe',
-      'YoloBrother',
+      'h3llo',
       '123',
       'gxld',
       'kiw1',
@@ -129,10 +129,10 @@ function simulateUserInput(inputElement, value) {
       'bxxm',
       'grxd',
       'drxppy',
-      'brp',
+      'f4rt',
       'rxxt',
       '_heisenberg',
-      'brba',
+      '0K',
       'sxul',
       '_heisenberg',
       'ifarted',
