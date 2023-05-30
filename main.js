@@ -135,6 +135,14 @@ function simulateUserInput(inputElement, value) {
       'brba',
       'sxul',
       '_heisenberg',
+      'ifarted',
+      'i_farted',
+      'master',
+      'drag0n',
+      'deez',
+      'nuts',
+      'peanut',
+      'IHATEPOOP'
     ];
     function getRandomItem(arr) {
       return arr[Math.floor(Math.random() * arr.length)];
