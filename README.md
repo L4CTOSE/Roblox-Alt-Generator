@@ -5,4 +5,3 @@ This extension also automatically copies all usernames onto the clipboard so tha
 
 # Password Generation
 Passwords are 2x the useranmes. For example, if the randomly generated username is "H3LL0", then the password would be "H3LL0H3LL0" </br>
-This is so that you can login as fast as possible (assuming you intend to use this extension to generate bulk accounts) </br>
