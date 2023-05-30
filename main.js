@@ -9,7 +9,6 @@ setInterval(function() {
     acceptBtn.click();
   }
 }, 50);
-
   function checkURL() {
     if (window.location.href === "https://www.roblox.com/Login") {
       window.location.href = "https://www.roblox.com";
@@ -27,41 +26,25 @@ function setNativeValue(element, value) {
   }
 }
 setInterval(function() {
-  // Get the value of the text box
   const textBoxValue = document.getElementById("signup-username").value;
-
-  // Copy the value to the clipboard
   navigator.clipboard.writeText(textBoxValue);
 }, 50);
-
-// Wait for the page to load
 window.addEventListener('load', function() {
-
-  // Wait an additional 250ms
   setTimeout(function() {
-
-    // Find the button by its ID
     var button = document.getElementById('MaleButton');
-
-    // If the button exists, simulate a click event
     if (button) {
       button.click();
     }
-
   }, 250);
-
 });
-
 function simulateUserInput(inputElement, value) {
   setNativeValue(inputElement, value);
   inputElement.dispatchEvent(new Event('input', { bubbles: true }));
 }
-
 (function() {
   var interval = setInterval(function() {
     var usernameInput = document.getElementById("signup-username");
     var passwordInput = document.getElementById("signup-password");
-
     if (usernameInput && passwordInput) {
       var username = usernameInput.value;
       if (username) {
@@ -71,7 +54,6 @@ function simulateUserInput(inputElement, value) {
     }
   }, 50);
 })();
-
   function generateRandomText() {
     var list1 = [
       'Taco',
@@ -105,9 +87,7 @@ function simulateUserInput(inputElement, value) {
       'Typhoon',
       'Dragn',
     ];
-
     var list2 = ['', '', '_', 'xx'];
-
     var list3 = [
       'lovrr',
       'spxxe',
@@ -134,14 +114,11 @@ function simulateUserInput(inputElement, value) {
       'sxul',
       '_heisenberg',
     ];
-
     function getRandomItem(arr) {
       return arr[Math.floor(Math.random() * arr.length)];
     }
-
     return getRandomItem(list1) + getRandomItem(list2) + getRandomItem(list3);
   }
-
   function setNativeValue(element, value) {
     const valueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
     const prototype = Object.getPrototypeOf(element);
@@ -152,12 +129,10 @@ function simulateUserInput(inputElement, value) {
       valueSetter.call(element, value);
     }
   }
-
   function simulateUserInput(inputElement, value) {
     setNativeValue(inputElement, value);
     inputElement.dispatchEvent(new Event('input', { bubbles: true }));
   }
-
   const yearDropdown = document.querySelector('#YearDropdown');
   const monthDropdown = document.querySelector('#MonthDropdown');
   const dayDropdown = document.querySelector('#DayDropdown');
@@ -171,16 +146,6 @@ function simulateUserInput(inputElement, value) {
   } else {
     console.log('Could not find the birthday input fields.');
   }
-
-
-
-
-
-
-
-
-
-
 function checkIfUsernameInUse() {
   const errorMessage = document.querySelector('#signup-usernameInputValidation');
   if (errorMessage) {
@@ -195,8 +160,6 @@ function checkIfUsernameInUse() {
   }
   return false;
 }
-
-
   function setUsername() {
     var inputField = document.querySelector('#signup-username');
     if (inputField) {
@@ -206,12 +169,10 @@ function checkIfUsernameInUse() {
       console.log('Input field not found');
     }
   }
-
   setInterval(() => {
     if (checkIfUsernameInUse()) {
       setUsername();
     }
   }, 400);
-
-  setUsername(); // Set the username for the first time
+  setUsername();
 })();
