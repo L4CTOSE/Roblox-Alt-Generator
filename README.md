@@ -1,5 +1,5 @@
-# Roblox Alt Generator
-This Open Source Chrome Extension will allow you to generate Roblox Accounts quickly </br>
+# Roblox Alt Generator Extension
+This Open Source Chrome Extension will allow you to generate Roblox Accounts quickly. Works on Chrome and Edge.</br>
 
 This extension also automatically copies all usernames onto the clipboard so that you can quickly paste it into notepad for bulk generation! </br>
 
